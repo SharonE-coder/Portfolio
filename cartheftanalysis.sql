@@ -57,4 +57,4 @@ SELECT modelyear, SUM(thefts) AS total_thefts
 FROM cartheft
 GROUP BY modelyear
 ORDER BY total_thefts DESC;
--- 1998 records highest theft
+-- 1998 model records highest theft
